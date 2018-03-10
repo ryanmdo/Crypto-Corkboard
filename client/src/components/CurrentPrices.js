@@ -26,7 +26,7 @@ render(){
 
     <div>
 
-
+THIS IS CURRENT PRICES
 
     </div>
 

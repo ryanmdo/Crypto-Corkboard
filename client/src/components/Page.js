@@ -2,6 +2,9 @@ import React, {Component} from 'react';
 
 
 import Sidebar from './Sidebar'
+import CurrentPrices from './CurrentPrices'
+
+
 
 export default class Header extends Component{
 
@@ -18,11 +21,15 @@ export default class Header extends Component{
         return(
 
 
-<div className='wrapper'> THIS IS PAGE
+<div className='wrapper'> THIS IS MAIN PAGE
 
-    <nav className='col-md-2'>
-        <Sidebar/>
-    </nav>
+
+
+
+    <CurrentPrices/>
+
+
+
 </div>
 
 
